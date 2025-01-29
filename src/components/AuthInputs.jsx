@@ -23,7 +23,7 @@ export default function AuthInputs() {
   return (
     <div id="auth-inputs">
       <div className="controls">
-        <p>
+        <p className='paragraph'>
         {/*Warunkowe stylowania CSS przy użyciu klas i operatora trójskładnikowego*/}
           <label className={`label ${emailNotValid ? 'invalid' : ''}`}>Email</label>
           <input
